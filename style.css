@@ -1,0 +1,173 @@
+* {
+    color: #25282B;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: absolute;
+    right: 2%;
+    padding: 1rem 0;
+}
+
+nav a {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    text-decoration: none;
+    padding-left: 15%;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    font-size: 1.125rem;
+    color: white;
+    text-decoration: underline white;
+    text-underline-offset: 12px;
+    transition: 0.3s;
+}
+
+.intro-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.intro-info {
+    width: 38%;
+    top: 55px;
+    position: absolute;
+    padding: 0 2% 0 8%;
+    z-index: 1;
+}
+
+.intro-graphic {
+    position: absolute;
+    top: 0;
+    width: 50%;
+    right: 0;
+    z-index: -1;
+}
+
+.intro-graphic img {
+    width: 100%;
+}
+
+.intro-info h2 {
+    color: #FDC435;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    text-transform: uppercase;
+}
+
+.intro-info h1 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 3.5rem;
+    padding: 12px 0 32px 0;
+}
+
+.intro-info p {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 200;
+    font-size: 1.25rem;
+    line-height: 2rem;
+    color: #828282;
+    padding-bottom: 1.75rem;
+}
+
+.info-btns {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+.btn-primary {
+    text-decoration: none;
+    background-color: #FDC435;
+    border-radius: 8px;
+    margin-right: 0.5rem;
+    padding: 0.5rem 1.25rem;
+    transition: 0.3s;
+}
+
+.btn-primary:hover {
+    color: white;
+    padding: 0.75rem 1.5rem;
+    font-size: 1.125rem;
+    transition: 0.3s;
+}
+
+.btn-secondary {
+    text-decoration: none;
+    border: 2px solid #25282B;
+    border-radius: 8px;
+    padding: 0.5rem 1.25rem;
+    transition: 0.3s;
+}
+
+.btn-secondary:hover {
+    color: #FDC435;
+    border-color: #FDC435;
+    padding: 0.75rem 1.5rem;
+    font-size: 1.125rem;
+}
+
+
+@media only screen and (max-width: 497px) {
+    * {
+        font-size: 10px;
+        transition: 0.3s;
+    }
+}
+
+
+@media only screen and (min-width: 497px) and (max-width: 675px) {
+    * {
+        font-size: 10px;
+        transition: 0.3s;
+    }
+
+    nav {
+        right: 4%;
+    }
+
+}
+
+@media only screen and (min-width: 675px) {
+    * {
+        font-size: 14px;
+        transition: 0.3s;
+    }
+
+    nav {
+        right: 6%;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    * {
+        font-size: 16px;
+        transition: 0.3s;
+    }
+
+    nav {
+        right: 6%;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    * {
+        font-size: 18px;
+        transition: 0.3s;
+    }
+
+    nav {
+        right: 8%;
+    }
+} 
