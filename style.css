@@ -190,9 +190,16 @@ nav a:hover {
     padding-bottom: 1rem;
 }
 
+.language-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+
 .language-icons img {
     height: 2.75rem;
     padding-bottom: 1rem;
+    margin: 0.125rem;
 }
 
 .btn-project {
