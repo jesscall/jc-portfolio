@@ -87,14 +87,12 @@ nav a:hover {
     padding-bottom: 1.75rem;
 }
 
-.info-btns {
+.btn-primary {
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
-}
-
-.btn-primary {
     text-decoration: none;
     background-color: #FDC435;
+    border: none;
     border-radius: 8px;
     margin-right: 0.5rem;
     padding: 0.5rem 1.25rem;
@@ -109,6 +107,8 @@ nav a:hover {
 }
 
 .btn-secondary {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
     text-decoration: none;
     border: 2px solid #25282B;
     border-radius: 8px;
@@ -172,6 +172,15 @@ nav a:hover {
     padding-bottom: 1rem;
 }
 
+.project-card-info h3 {
+    font-family: 'Nunito', serif;
+    color: #4a4949;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-top: -1rem;
+    padding-bottom: 1rem;
+}
+
 .project-card-info p {
     font-family: 'Nunito', sans-serif;
     color: #828282;
@@ -217,7 +226,7 @@ nav a:hover {
     border-radius: 0 24px 24px 0;
 }
 
-.kingsway-chess {
+.loris {
     border-radius: 24px 0 0 24px;
 }
 
@@ -225,19 +234,18 @@ nav a:hover {
 footer {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding-bottom: 2rem;
 }
 
 .footer-links {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     padding-bottom: 1rem;
+    background-color: transparent;
 }
 
 .footer-links a {
     text-decoration: none;
+    padding: 1rem;
 }
 
 .footer-links img {
@@ -249,9 +257,82 @@ footer p {
     font-size: 1rem;
     font-weight: 400;
     color: #828282;
+    text-align: center;
 }
 
+.footer-splash {
+    height: 5rem;
+    width:100%;
+}
 
+/* ABOUT SECTION */
+.about-container {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+    font-family: 'Nunito', sans-serif;
+    color: #828282;
+}
+
+.about-info {
+    width: 50%;
+}
+
+.about-info h1 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 2.5rem;
+    color: #25282B;
+    padding-bottom: 2rem;
+}
+
+.about-info h3 {
+    font-family: 'Lora', serif;
+    font-size: 1.5rem;
+    margin-bottom: 0.25rem;
+    color: #FDC435;
+}
+
+.about-info p {
+    font-family: 'Nunito', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    padding-bottom: 2rem;
+}
+
+.about-info ul {
+    margin: 0 0 2rem 1.5rem;
+}
+
+.about-info li, p, .inline-link {
+    color: #828282;
+}
+
+.about-graphic {
+    background-color: #FDC435;
+    border-radius: 50%;
+    width: 10rem;
+    height: 10rem;
+}
+
+/* CONTACT SECTION */
+.contact-title {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 2.5rem;
+    color: #25282B;
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+    text-align: center;
+}
+
+#contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 /* MEDIA QUERIES */
 @media only screen and (max-width: 497px) {
